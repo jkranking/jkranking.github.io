@@ -1,0 +1,75 @@
+body {
+  max-width: 1280px;
+  min-width: 200px;
+  background-color: #FFFFCC;
+
+}
+
+header {
+  font-family: cursive;
+  display: block;
+  max-width: 100%;
+  text-align: center;
+  border: solid black 1px;
+  padding: 10px 10px 10px 10px;
+  background-image: url("https://30nevermind.files.wordpress.com/2015/04/theenvironmentalblog-org.jpg");
+  background-size: 140px 100px;
+  background-repeat: no-repeat;
+  background-position: 2% center;
+  background-color: white;
+}
+
+#hiking_list {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+main {
+  width: 79%;
+  display: inline-block;
+}
+
+a:visited {
+    color: red;
+}
+
+.hiking_image {
+  wi
+}
+
+img {
+  text-align: center;
+  border: solid black 5px;
+  margin: 50px 50px 0px 50px;
+  border-radius: 25%;
+
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+  border: solid black 1px;
+}
+
+@media screen and (max-width: 500px) {
+
+
+  #hiking_list {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  main {
+    display: block;
+    width: 100%;
+  }
+  h1 {
+    font-size: 50%;
+  }
+}
